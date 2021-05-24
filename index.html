@@ -14,56 +14,174 @@
       }
       body {
         background-color: rgb(0, 68, 53);
-        padding: 0 90px;
-
+        opacity: .5;
+        height: 13076px;
       }
       body::before{
         content: "";
         position: absolute;
         left: 0;
-        top: -80px;
+        /* top: -80px; */
         right: 0;
-        background: url( 'images/1111.png');
+        background: url( 'images/1.jpeg');
         width: 100%;
-        height: 100%;
-        background-size: 100% auto ;
+        height: 13076px;
+        background-size: 100% 13076px;
         display: block;
         opacity: .5;
       }
       h1{
         position: relative;
         display: block;
-        line-height: 1em;
-        font-style: normal;
         font-family: Source Sans Pro;
+        font-style: normal;
         font-weight: 700;
-        font-size: 4.6em;
+        text-transform: uppercase;
+        font-size: 73px;
         color: rgba(255, 255, 255, 1);
 
       }
       .h1_name {
-        padding-top: 0.3em;
+        padding-top: 2.5%;
       }
       .name {
         position: relative;
         display: inline-block;
-        margin-top: 11em;
-        margin-right: 10em;
+        margin-top: 12.2%;
+        margin-left: 6.5%;
+        margin-bottom: 20.2%;
       }
       #first_img {
-      position: relative;
-      display: inline-block;
-      width: 18.5em;
-      height: 18.5em;
-      margin-bottom: -0.5em;
+        position: absolute;
+        width: 21.5%;
+        top: 25%;
+        right: 8%;
+      }
+      .menubar {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 9%;
+        width: 100%;
+        background: black;
+        padding: 0;
+        opacity: 50%;
+        padding: 0.9% 1.2% 0.5% 1.2%;
+      }
+      a {
+        position: relative;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+
+      }
+      .logo {
+        margin-top: -0.5%;
+      }
+      .menubar_content a {
+      margin-left: 3.8%;
+      margin-right: 2.48%;
+      }
+      .menubar_content {
+        position: relative;
+        width: 95%;
+      }
+
+      h2 {
+        position: relative;
+        display: block;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 73px;
+        color: rgba(255, 255, 255, 1);
+        margin-left: 9%;
+        margin-bottom: 10.2%;
+        margin-top: 17%;
+      }
+      p {
+        position: relative;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: rgba(255, 255, 255, 1);
+        margin-left: 9%;
+        width: 43%;
+        margin-bottom: 1.5%;
+      }
+      .mail {
+      margin-top: 3%;
+      }
+      h3 {
+        position: relative;
+        display: inline-block;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+
+        margin-bottom: 7.5%;
+
+      }
+      span {
+        position: relative;
+        display: block;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+        line-height: 23px;
+        margin-bottom: 6%;
+
+      }
+      .photo_text {
+        position: relative;
+        display: inline-block;
+        width: 21%;
+        margin-top: 3.8%;
+        margin-left: 9%;
       }
     </style>
   </head>
   <body>
+    <div class="menubar">
+      <a href="index.html" class="logo">АНО<br>ТЕАТРЫ<br>ПЕТЕРБУРГА</a>
+      <div class="menubar_content">
+        <a href="#">О&nbspНАС</a>
+        <a href="#">СПЕКТАКЛИ</a>
+        <a href="#">ФЕСТИВАЛИ</a>
+        <a href="#">ЛАБОРАТОРИИ</a>
+        <a href="#">ГОТОВЯЩИЕСЯ&nbspПРОЕКТЫ</a>
+        <a href="#">УСТАВНЫЕ&nbspДОКУМЕНТЫ</a>
+      </div>
+    </div>
     <div class="name">
       <h1>АВТОНОМНАЯ<br>НЕКОММЕРЧЕСКАЯ<br>ОРГАНИЗАЦИЯ</h1>
       <h1 class="h1_name">«ТЕАТРЫ&nbspПЕТЕРБУРГА»</h1>
     </div>
     <img src="images/qqq.png" alt="" id="first_img">
+    <h2 class="about">О&nbspНАС</h2>
+    <p>Автономная некоммерческая организация «ТЕАТРЫ ПЕТЕРБУРГА» зарегистрирована 15 июля 2014 года.</p>
+    <p>Задачей организации является поддержка независимых театральных проектов и развитие современного театра.</p>
+    <p>В рамках деятельности организации получили поддержку несколько постановок, театральных школ, фестивалей и драматургических лабораторий.</p>
+    <p>Мы будем рады сотрудничеству с вами!</p>
+    <p class="mail">Контактная почта: spbtheatres@gmail.com</p>
+    <h2>СПЕКТАКЛи</h2>
+    <div class="photo_text">
+      <h3>«Старуха. Хармс. Спектакль»</h3>
+      <span>Едва ли не единственное произведение Даниила Хармса, написанное от первого лица, остается практически нетронутым – то есть таким, каким его создал сам писатель. Единственный актёр – главный герой, рассказчик и голос всех персонажей пьесы. Единственная декорация – простыни висящие на веревке то ли в Петербургском дворе-колодце,то ли в коридоре Ленинградской коммуналки,на которых черно-белыми картинками возникает мир, в котором живёт рассказчик.</span>
+      <span>Этот спектакль слово нарисован рукой самого Хармса. Рукой, которая при ближайшем рассмотрении – то ли нож, то ли вилка.</span>
+    </div>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMC40NDI5OTk5ODg3OTQzMjY4IDMyLjA5MTk5OTA1Mzk1NTA4IDMxLjExMjk5ODk2MjQwMjM0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgc3R5bGU9IndpZHRoOiAxMDAlOyBoZWlnaHQ6IDEwMCU7IiBmaWxsPSJyZ2IoMjU1LDI1NSwyNTUpIiBmaWxsLW9wYWNpdHk9IjEiPjxwYXRoIGQ9Ik0xOS4wOTIgMy45OEwxNS41NTYuNDQzIDAgMTZsMTUuNTU2IDE1LjU1NiAzLjUzNi0zLjUzNS05LjU0LTkuNTQxaDIyLjU0di00Ljk5M0g5LjU4NHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==">
   </body>
 </html>
