@@ -120,6 +120,18 @@
       .mail {
       margin-top: 3%;
       }
+
+      .box {
+        height: 4.4%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: red;
+        opacity: 50%;
+        margin-top: 13%;
+
+      }
       h3 {
         position: relative;
         display: inline-block;
@@ -128,8 +140,9 @@
         font-weight: 700;
         font-size: 14px;
         color: rgba(255, 255, 255, 1);
-
-        margin-bottom: 7.5%;
+        margin-bottom: 6.5%;
+        margin-top: 4%;
+        line-height: 23px;
 
       }
       span {
@@ -146,11 +159,77 @@
       }
       .photo_text {
         position: relative;
-        display: inline-block;
         width: 21%;
-        margin-top: 3.8%;
+
         margin-left: 9%;
+        height: 100%;
       }
+
+
+      .gallery_block {
+        position: relative;
+        display: block;
+        background: blue;
+        width: 70%;
+        height: 100%;
+        padding: 0% 4.3%;
+      }
+      .gallery {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background: purple;
+        height: 84%;
+        width: 100%;
+      }
+      .photo_block {
+        position: relative;
+        display: inline-block;
+        background: green;
+        width: 94.6%;
+        height: 98.5%;
+        margin-top: 1.5%;
+
+        background-position: 0 top;
+
+      }
+      .photo_block1 {
+        background-image: url('images/gallery1.png');
+        background-size: 700% 100%;
+      }
+      .photo_block2 {
+        background-image: url('images/gallery2.png');
+        background-size: 600% 100%;
+      }
+      .strelka1 {
+        width: 2.7%;
+        margin-top: 1%;
+      }
+      .strelka2 {
+        width: 2.7%;
+        margin-top: 1%;
+        transform: rotate(180deg);
+      }
+      .under_photo {
+        position: relative;
+        background: yellow;
+        height: 16%;
+        width: 100%;
+
+      }
+      .under_photo1 {
+        padding: 1.2% 0% 0.3% 14.5%;
+      }
+      .under_photo2 {
+        padding: 1.2% 0% 0.3% 19.7%;
+      }
+      .gallery_photo {
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        margin: 0 0.55%;
+      }
+
     </style>
   </head>
   <body>
@@ -177,11 +256,75 @@
     <p>Мы будем рады сотрудничеству с вами!</p>
     <p class="mail">Контактная почта: spbtheatres@gmail.com</p>
     <h2>СПЕКТАКЛи</h2>
-    <div class="photo_text">
-      <h3>«Старуха. Хармс. Спектакль»</h3>
-      <span>Едва ли не единственное произведение Даниила Хармса, написанное от первого лица, остается практически нетронутым – то есть таким, каким его создал сам писатель. Единственный актёр – главный герой, рассказчик и голос всех персонажей пьесы. Единственная декорация – простыни висящие на веревке то ли в Петербургском дворе-колодце,то ли в коридоре Ленинградской коммуналки,на которых черно-белыми картинками возникает мир, в котором живёт рассказчик.</span>
-      <span>Этот спектакль слово нарисован рукой самого Хармса. Рукой, которая при ближайшем рассмотрении – то ли нож, то ли вилка.</span>
+    <div class="box">
+      <div class="photo_text">
+        <h3>«Старуха. Хармс. Спектакль»</h3>
+        <span>Едва ли не единственное произведение Даниила Хармса, написанное от первого лица, остается практически нетронутым – то есть таким, каким его создал сам писатель. Единственный актёр – главный герой, рассказчик и голос всех персонажей пьесы. Единственная декорация – простыни висящие на веревке то ли в Петербургском дворе-колодце,то ли в коридоре Ленинградской коммуналки,на которых черно-белыми картинками возникает мир, в котором живёт рассказчик.</span>
+        <span>Этот спектакль слово нарисован рукой самого Хармса. Рукой, которая при ближайшем рассмотрении – то ли нож, то ли вилка.</span>
+      </div>
+      <div class="gallery_block">
+        <div class="gallery">
+          <img src="images/strelka.svg" alt="" class="strelka1">
+          <div class="photo_block photo_block1"></div>
+          <img src="images/strelka.svg" alt="" class="strelka2">
+        </div>
+        <div class="under_photo under_photo1">
+          <img src="images/gallery1/gallery1_1.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery1/gallery1_2.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery1/gallery1_3.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery1/gallery1_4.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery1/gallery1_5.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery1/gallery1_6.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery1/gallery1_7.jpg" alt="" class="gallery_photo">
+        </div>
+      </div>
     </div>
-    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMC40NDI5OTk5ODg3OTQzMjY4IDMyLjA5MTk5OTA1Mzk1NTA4IDMxLjExMjk5ODk2MjQwMjM0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgc3R5bGU9IndpZHRoOiAxMDAlOyBoZWlnaHQ6IDEwMCU7IiBmaWxsPSJyZ2IoMjU1LDI1NSwyNTUpIiBmaWxsLW9wYWNpdHk9IjEiPjxwYXRoIGQ9Ik0xOS4wOTIgMy45OEwxNS41NTYuNDQzIDAgMTZsMTUuNTU2IDE1LjU1NiAzLjUzNi0zLjUzNS05LjU0LTkuNTQxaDIyLjU0di00Ljk5M0g5LjU4NHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==">
+
+    <div class="box">
+      <div class="photo_text">
+        <h3>Детская программа от Чемодан-дуэта «Квам»<br>«Цирк да и только!»</h3>
+        <span>Пока артисты творят чудеса на сцене, в зале творится нечто невообразимое: зрители то хохочут, то восторженно замирают, открыв рот, то пытаются повторить за артистами «волшебные» жесты.</span>
+        <span>Андрей Князьков и Алексей Мельник расскажут вам о театре кукол, причем очень серьезно! Поскольку дети — народ любознательный, познакомиться с профессией кукольника можно будет прямо на сцене! Так сказать, методом погружения.</span>
+      </div>
+      <div class="gallery_block">
+        <div class="gallery">
+          <img src="images/strelka.svg" alt="" class="strelka1">
+          <div class="photo_block photo_block2"></div>
+          <img src="images/strelka.svg" alt="" class="strelka2">
+        </div>
+        <div class="under_photo under_photo2">
+          <img src="images/gallery2/gallery2_1.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_2.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_3.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_4.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_5.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_6.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_7.jpg" alt="" class="gallery_photo">
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="photo_text">
+        <h3>С 2016 года АНО «Театры Петербурга плотно содрудничает с Чемодан-дуэтом «Квам». В репертуре дуэта-эстрадное представление<br>«Как из ничего сделать все»</h3>
+        <span>Весёлый музыкальный эксцентрический спектакль для взрослых в 2-х отделениях с антрактом где-то посередине. Спектакль объездил уже более 10 международных фестивалей и 12-ти стран мира, завоевав признание огромного количества российских и зарубежных зрителей!</span>
+      </div>
+      <div class="gallery_block">
+        <div class="gallery">
+          <img src="images/strelka.svg" alt="" class="strelka1">
+          <div class="photo_block photo_block2"></div>
+          <img src="images/strelka.svg" alt="" class="strelka2">
+        </div>
+        <div class="under_photo under_photo2">
+          <img src="images/gallery2/gallery2_1.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_2.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_3.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_4.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_5.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_6.jpg" alt="" class="gallery_photo">
+          <img src="images/gallery2/gallery2_7.jpg" alt="" class="gallery_photo">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
