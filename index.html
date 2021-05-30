@@ -1949,6 +1949,15 @@
             }, 20);
           }
         })
+
+        let x;
+        $(window).on('scroll', function() {
+        	x = $(window).scrollTop();
+          if (x > 0 && x < 10%)  {
+            $('aaa1').css('color', '#74FACB');
+        }
+
+        });
       });
     </script>
   </head>
@@ -1959,7 +1968,7 @@
           <div class="menubar">
             <a href="index.html" class="logo">АНО<br>ТЕАТРЫ<br>ПЕТЕРБУРГА</a>
             <div class="menubar_content">
-              <a href="#menubar_1">О&nbspНАС</a>
+              <a href="#menubar_1" id="aaa1">О&nbspНАС</a>
               <a href="#menubar_2">СПЕКТАКЛИ</a>
               <a href="#menubar_3">ФЕСТИВАЛИ</a>
               <a href="#menubar_4">ЛАБОРАТОРИИ</a>
