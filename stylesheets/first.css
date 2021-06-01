@@ -67,7 +67,7 @@ h1{
   width: 100%;
   background: black;
   padding: 0;
-  opacity: 50%;
+  /* opacity: 50%; */
   padding: 0.9% 1.2% 0.5% 1.2%;
   z-index: 100;
 }
@@ -134,8 +134,8 @@ margin-top: 3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: red;
-  opacity: 50%;
+  /* background: red; */
+  /* opacity: 50%; */
   margin-top: 13%;
 
 }
@@ -176,7 +176,7 @@ span {
 .gallery_block {
   position: relative;
   display: block;
-  background: blue;
+  /* background: blue; */
   width: 70%;
   height: 100%;
   padding: 0% 4.3%;
@@ -185,14 +185,14 @@ span {
   position: relative;
   display: flex;
   justify-content: space-between;
-  background: purple;
+  /* background: purple; */
   height: 84%;
   width: 100%;
 }
 .photo_block {
   position: relative;
   display: inline-block;
-  background: green;
+  /* background: green; */
   width: 94.6%;
   height: 98.5%;
   margin-top: 1.5%;
@@ -243,7 +243,7 @@ span {
 
 .under_photo {
   position: relative;
-  background: yellow;
+  /* background: yellow; */
   height: 16%;
   width: 100%;
   display: flex;
@@ -301,7 +301,6 @@ span {
 
 .box2 {
   height: 4.25%;
-  opacity: 50%;
   margin-top: 13.5%;
 }
 .box3 {
@@ -394,7 +393,7 @@ span {
   right: 8%;
 }
 .photo_block {
-  transition: all 2s;
+  transition: all .5s;
 }
 .opacity {
   opacity: 100%;
