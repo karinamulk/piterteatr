@@ -4,22 +4,8 @@
 }
 body {
   background-color: rgb(0, 68, 53);
-  /* opacity: .5; */
-  /* height: 13076px; */
-}
-/* body::before{
-  content: "";
-  position: absolute;
-  left: 0;
 
-  right: 0;
-  background: url( 'images/1.jpeg');
-  width: 100%;
-  height: 13076px;
-  background-size: 100% 13076px;
-  display: block;
-  opacity: .5;
-} */
+}
 
 .wrapper {
   position: relative;
@@ -348,9 +334,7 @@ span {
   height: 4.165%;
   margin-top: 13.4%;
 }
-/* .festivals {
-  margin-top: 32.6%;
-} */
+
 
 .gallery_photo8 {
   margin: 0 0.39%;
@@ -483,8 +467,4 @@ svg path {
   opacity: 100%;
   transition: all .1s;
   cursor: pointer;
-}
-.active {
-  color: black;
-
 }
