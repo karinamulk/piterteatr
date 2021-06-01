@@ -1456,19 +1456,19 @@ $(document).ready(function(){
 
 
 });
-// 
-//
-// let topMenu = $("#menu"),
-//     topMenuHeight = topMenu.outerHeight()+15,
-//     // All list items
-//     menuItems = topMenu.find("a"),
-//     // Anchors corresponding to menu items
-//     scrollItems = menuItems.map(function(){
-//       let item = $($(this).attr("href"));
-//       if (item.length) { return item; }
-//     });
-//
-// // Bind to scroll
+
+
+let topMenu = $("#menu"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      let item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    });
+
+// Bind to scroll
 // $(window).scroll(function(){
 //    // Get container scroll position
 //    let fromTop = $(this).scrollTop()+topMenuHeight;
