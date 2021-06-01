@@ -93,6 +93,7 @@ margin-right: 2.48%;
 transition: all .3s;
 
 }
+
 .menubar_content {
   position: relative;
   width: 95%;
@@ -371,7 +372,7 @@ span {
   line-height: 15px;
   color: rgba(255, 255, 255, 1);
   margin-left: 9%;
-  width: 43%;
+
   margin-bottom: 1.5%;
   text-transform: none;
   transition: all .3s;
@@ -380,6 +381,8 @@ span {
   margin-top: 5.2%;
   margin-left: 30.75%;
   margin-bottom: 17.8%;
+  width: 65.15%;
+  height: 3.87%;
 }
 .docs {
   margin-bottom: 3.9%;
@@ -484,5 +487,5 @@ svg path {
 }
 .active {
   color: black;
-  background: black;
+
 }
